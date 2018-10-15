@@ -92,13 +92,15 @@
 
   <div class="container bgfff" style="padding: 0 40px 20px">
 
-    <div class="mb30 f24">联系我们</div>
+    <div class="mb5 f24">联系我们</div>
+    <div class="mb20">客服电话：400 8989 108</div>
 
     <div class="row">
 
       <div class="col-sm-4 mb30 lh150">
 
         <div class="mb10 f16 b">广州</div>
+
         <div class="fl mr10">地址：</div>
         <div class="fl">
           广东省广州市海珠区<br>
@@ -110,15 +112,15 @@
         <div class="fl mr10">地址：</div>
         <div class="fl">
           广东省广州市荔湾区<br>
-          龙溪东路48号广佛数字创意园2306室
+          龙溪东路48号广佛数字创意园
         </div>
 
-        <div class="c"></div>
+<!--         <div class="c"></div>
 
         <div class="fl mr10">电话：</div>
         <div class="fl">
           020-81224145
-        </div>
+        </div> -->
 
         <div class="c h30"></div>
 
@@ -129,6 +131,13 @@
           德思勤商业广场
         </div>
 
+        <div class="c"></div>
+
+        <div class="fl mr10">电话：</div>
+        <div class="fl">
+          0731-55582895
+        </div>
+
         <div class="c h30"></div>
 
         <div class="mb10 f16 b">陕西</div>
@@ -136,6 +145,13 @@
         <div class="fl">
           陕西省咸阳市秦都区<br>
           滨河西路地矿院内
+        </div>
+
+      <div class="c"></div>
+
+        <div class="fl mr10">电话：</div>
+        <div class="fl">
+          18992018090
         </div>
 
 <!--         <div class="c"></div>
@@ -296,7 +312,7 @@ var app = new Vue({
 
     // 百度地图API功能
     var map = new BMap.Map("map");
-    var point = new BMap.Point(113.226813,23.085245);
+    var point = new BMap.Point(113.320556,23.091002);
     map.centerAndZoom(point, 18);
     var marker = new BMap.Marker(point);  // 创建标注
     map.addOverlay(marker);               // 将标注添加到地图中
